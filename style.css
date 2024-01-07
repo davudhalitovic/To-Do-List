@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+.wrapper {
+  background-color: rgb(234, 234, 234);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.firstSection h1 {
+  font-size: 2.5rem;
+}
+.secondSection {
+  width: 90%;
+}
+.itemWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(195, 194, 194);
+  margin: 1rem;
+  border-radius: 3px;
+}
+
+/*inputs*/
+
+.input-style {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+
+.input-style:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.editInput {
+  padding: 10px;
+  border: 2px solid #989898;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #555;
+  outline: none;
+}
+
+/*buttons*/
+
+.addButton {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+  transition: all 0.5s ease;
+  margin: 1rem;
+}
+
+.addButton:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 2px 2px 0px;
+}
+
+.addButton:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(1px);
+  transition: 100ms;
+}
+.buttons button {
+  margin: 3px;
+}
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+.confirmButton {
+  background-color: rgb(21, 180, 18);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+.confirmButton:hover {
+  opacity: 0.6;
+}
+.deleteButton:hover {
+  opacity: 0.6;
+}
+.editButton {
+  background-color: rgb(56, 64, 209);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+.editButton:hover {
+  opacity: 0.8;
+}
+/*list*/
+
+ul {
+  list-style-type: none;
+}
